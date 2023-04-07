@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicada2Api", "Aplicada2Api.csproj", "{2672B82E-31FA-401C-BBCA-2A393613FABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2672B82E-31FA-401C-BBCA-2A393613FABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2672B82E-31FA-401C-BBCA-2A393613FABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2672B82E-31FA-401C-BBCA-2A393613FABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2672B82E-31FA-401C-BBCA-2A393613FABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90BD7453-EEC1-4901-B105-F0CD19BDC577}
+	EndGlobalSection
+EndGlobal

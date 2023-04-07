@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Aplicada2ApiTest2023/apis/Aplicada2Api",
+      "type": "apis.azure"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+C:\Aplicada 2\Aplicada2Api\obj\Release\net7.0\PubTmp\Out\Data\ProyectoFinal.db
 C:\Aplicada 2\Aplicada2Api\obj\Release\net7.0\PubTmp\Out\Aplicada2Api.exe
 C:\Aplicada 2\Aplicada2Api\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
 C:\Aplicada 2\Aplicada2Api\obj\Release\net7.0\PubTmp\Out\appsettings.json

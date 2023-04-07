@@ -18,21 +18,20 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
+//if (app.Environment.IsDevelopment())
+//{
    
-}
-app.UseSwagger();
-app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Aplicada2Api v1"));
+    app.UseSwagger();
+    app.UseSwaggerUI();
+
+//}
+
+
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-/*app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});*/
+
 
 app.MapControllers();
 

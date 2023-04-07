@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj": {}
+    "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj": {}
   },
   "projects": {
-    "C:\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj": {
+    "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
+        "projectUniqueName": "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
         "projectName": "Aplicada2Api",
-        "projectPath": "C:\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
+        "projectPath": "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplicada 2\\Aplicada2Api\\obj\\",
+        "outputPath": "C:\\Users\\Aplicada 2\\Aplicada2Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bjFEPddIfG7KKOFUO3Q0f3M2e2BFx2Zf45jgnTauFXmeK3nxUVlKtloRcBwBdJe9LyakOS/J9HTLWcaJU/sGag==",
+  "dgSpecHash": "zRgGUUE4wNTK/Tjv9DipAxwAjN7z9Aix9EEmX/gxtuWhBzz5iLn1SC+wtPdqpUUJLzjE5d5eHf1Ld1574faiCw==",
   "success": true,
-  "projectFilePath": "C:\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
+  "projectFilePath": "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

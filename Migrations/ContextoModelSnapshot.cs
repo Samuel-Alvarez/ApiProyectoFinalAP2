@@ -97,6 +97,32 @@ namespace Aplicada2Api.Migrations
                     b.HasKey("MecanicoId");
 
                     b.ToTable("Mecanicos");
+
+                    b.HasData(
+                        new
+                        {
+                            MecanicoId = 1,
+                            Area = "Electricista",
+                            Disponible = 0,
+                            Nombres = "Samuel",
+                            Telefono = "809-234-5413"
+                        },
+                        new
+                        {
+                            MecanicoId = 2,
+                            Area = "Gomero",
+                            Disponible = 0,
+                            Nombres = "Elianny",
+                            Telefono = "809-234-5413"
+                        },
+                        new
+                        {
+                            MecanicoId = 3,
+                            Area = "Reparador de cremallera",
+                            Disponible = 0,
+                            Nombres = "Enel",
+                            Telefono = "809-23-5413"
+                        });
                 });
 
             modelBuilder.Entity("Aplicada2Api.Models.Reportes", b =>

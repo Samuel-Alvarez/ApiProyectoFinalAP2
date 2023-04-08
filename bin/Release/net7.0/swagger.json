@@ -822,7 +822,6 @@
           "type": "string"
         },
         "fecha": {
-          "format": "date-time",
           "type": "string"
         },
         "clienteId": {
@@ -902,7 +901,6 @@
           "type": "string"
         },
         "fecha": {
-          "format": "date-time",
           "type": "string"
         },
         "clienteId": {
@@ -933,7 +931,6 @@
           "type": "string"
         },
         "fecha": {
-          "format": "date-time",
           "type": "string"
         },
         "clienteId": {
@@ -967,7 +964,6 @@
           "type": "string"
         },
         "year": {
-          "format": "date-time",
           "type": "string"
         }
       },

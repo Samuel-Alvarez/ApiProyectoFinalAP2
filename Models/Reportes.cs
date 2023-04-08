@@ -14,7 +14,7 @@ namespace Aplicada2Api.Models
         [Key]
         public int ReporteId { get; set; }
         public string Concepto { get; set; }
-        public DateTime Fecha { get; set; } = DateTime.Now;
+        public string Fecha { get; set; } 
         public int ClienteId { get; set; }
         public int MecanicoId { get; set; }
 

@@ -13,6 +13,6 @@ namespace Aplicada2Api.Models
         public int VehiculoId { get; set; }
         public string Marca { set; get; }
         public string Modelo { set; get; }
-        public DateTime year { set; get; }
+        public string year { set; get; }
     }
 }

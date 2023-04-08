@@ -11387,11 +11387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
       "projectName": "Aplicada2Api",
-      "projectPath": "C:\\Users\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Aplicada 2\\Aplicada2Api\\Aplicada2Api.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aplicada 2\\Aplicada2Api\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Aplicada 2\\Aplicada2Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -37,7 +36,7 @@ namespace Aplicada2Api.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Marca = table.Column<string>(type: "TEXT", nullable: false),
                     Modelo = table.Column<string>(type: "TEXT", nullable: false),
-                    year = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    year = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -73,7 +72,7 @@ namespace Aplicada2Api.Migrations
                     CitaId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Concepto = table.Column<string>(type: "TEXT", nullable: false),
-                    Fecha = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Fecha = table.Column<string>(type: "TEXT", nullable: false),
                     ClienteId = table.Column<int>(type: "INTEGER", nullable: false),
                     MecanicoId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
@@ -101,7 +100,7 @@ namespace Aplicada2Api.Migrations
                     ReporteId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Concepto = table.Column<string>(type: "TEXT", nullable: false),
-                    Fecha = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Fecha = table.Column<string>(type: "TEXT", nullable: false),
                     ClienteId = table.Column<int>(type: "INTEGER", nullable: false),
                     MecanicoId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
@@ -129,7 +128,7 @@ namespace Aplicada2Api.Migrations
                     SolicitudId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Concepto = table.Column<string>(type: "TEXT", nullable: false),
-                    Fecha = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Fecha = table.Column<string>(type: "TEXT", nullable: false),
                     ClienteId = table.Column<int>(type: "INTEGER", nullable: false),
                     MecanicoId = table.Column<int>(type: "INTEGER", nullable: false)
                 },

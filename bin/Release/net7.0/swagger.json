@@ -831,12 +831,6 @@
         "mecanicoId": {
           "format": "int32",
           "type": "integer"
-        },
-        "clientes": {
-          "$ref": "#/definitions/Clientes"
-        },
-        "mecanicos": {
-          "$ref": "#/definitions/Mecanicos"
         }
       },
       "additionalProperties": false
@@ -860,9 +854,6 @@
         "vehiculoId": {
           "format": "int32",
           "type": "integer"
-        },
-        "vehiculos": {
-          "$ref": "#/definitions/Vehiculos"
         }
       },
       "additionalProperties": false
@@ -910,12 +901,6 @@
         "mecanicoId": {
           "format": "int32",
           "type": "integer"
-        },
-        "clientes": {
-          "$ref": "#/definitions/Clientes"
-        },
-        "mecanicos": {
-          "$ref": "#/definitions/Mecanicos"
         }
       },
       "additionalProperties": false
@@ -940,12 +925,6 @@
         "mecanicoId": {
           "format": "int32",
           "type": "integer"
-        },
-        "clientes": {
-          "$ref": "#/definitions/Clientes"
-        },
-        "mecanicos": {
-          "$ref": "#/definitions/Mecanicos"
         }
       },
       "additionalProperties": false

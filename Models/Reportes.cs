@@ -18,10 +18,5 @@ namespace Aplicada2Api.Models
         public int ClienteId { get; set; }
         public int MecanicoId { get; set; }
 
-        [ForeignKey("ClienteId")]
-        public Clientes clientes { get; set; }
-
-        [ForeignKey("MecanicoId")]
-        public Mecanicos mecanicos { get; set; }
     }
 }

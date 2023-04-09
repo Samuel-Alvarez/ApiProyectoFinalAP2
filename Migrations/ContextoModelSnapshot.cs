@@ -38,10 +38,6 @@ namespace Aplicada2Api.Migrations
 
                     b.HasKey("CitaId");
 
-                    b.HasIndex("ClienteId");
-
-                    b.HasIndex("MecanicoId");
-
                     b.ToTable("Citas");
                 });
 
@@ -67,8 +63,6 @@ namespace Aplicada2Api.Migrations
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ClienteId");
-
-                    b.HasIndex("VehiculoId");
 
                     b.ToTable("Clientes");
                 });
@@ -147,10 +141,6 @@ namespace Aplicada2Api.Migrations
 
                     b.HasKey("ReporteId");
 
-                    b.HasIndex("ClienteId");
-
-                    b.HasIndex("MecanicoId");
-
                     b.ToTable("Reportes");
                 });
 
@@ -176,10 +166,6 @@ namespace Aplicada2Api.Migrations
 
                     b.HasKey("SolicitudId");
 
-                    b.HasIndex("ClienteId");
-
-                    b.HasIndex("MecanicoId");
-
                     b.ToTable("Solicitudes");
                 });
 
@@ -204,74 +190,6 @@ namespace Aplicada2Api.Migrations
                     b.HasKey("VehiculoId");
 
                     b.ToTable("Vehiculos");
-                });
-
-            modelBuilder.Entity("Aplicada2Api.Models.Citas", b =>
-                {
-                    b.HasOne("Aplicada2Api.Models.Clientes", "clientes")
-                        .WithMany()
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Aplicada2Api.Models.Mecanicos", "mecanicos")
-                        .WithMany()
-                        .HasForeignKey("MecanicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("clientes");
-
-                    b.Navigation("mecanicos");
-                });
-
-            modelBuilder.Entity("Aplicada2Api.Models.Clientes", b =>
-                {
-                    b.HasOne("Aplicada2Api.Models.Vehiculos", "vehiculos")
-                        .WithMany()
-                        .HasForeignKey("VehiculoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("vehiculos");
-                });
-
-            modelBuilder.Entity("Aplicada2Api.Models.Reportes", b =>
-                {
-                    b.HasOne("Aplicada2Api.Models.Clientes", "clientes")
-                        .WithMany()
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Aplicada2Api.Models.Mecanicos", "mecanicos")
-                        .WithMany()
-                        .HasForeignKey("MecanicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("clientes");
-
-                    b.Navigation("mecanicos");
-                });
-
-            modelBuilder.Entity("Aplicada2Api.Models.Solicitudes", b =>
-                {
-                    b.HasOne("Aplicada2Api.Models.Clientes", "clientes")
-                        .WithMany()
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Aplicada2Api.Models.Mecanicos", "mecanicos")
-                        .WithMany()
-                        .HasForeignKey("MecanicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("clientes");
-
-                    b.Navigation("mecanicos");
                 });
 #pragma warning restore 612, 618
         }

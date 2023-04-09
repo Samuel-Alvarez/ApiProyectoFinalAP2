@@ -18,7 +18,6 @@ namespace Aplicada2Api.Models
         public string Direccion { get; set; }
         public int VehiculoId { get; set; }
 
-        [ForeignKey("VehiculoId")]
-        public Vehiculos vehiculos { get; set; }
+       
     }
 }
